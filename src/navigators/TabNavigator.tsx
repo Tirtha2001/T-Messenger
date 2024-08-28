@@ -10,6 +10,8 @@ import ContactScreen from "../screens/ContactScreen";
 const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => {
+    return(
+    
     <Tab.Navigator
     screenOptions={{
         tabBarHideOnKeyboard:true,
@@ -22,4 +24,7 @@ const TabNavigator = () => {
         <Tab.Screen name="Calls" component={CallScreen}/>
         <Tab.Screen name="Contacts" component={ContactScreen}/>
     </Tab.Navigator>
+    )
 }
+
+export default TabNavigator;

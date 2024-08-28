@@ -1,13 +1,18 @@
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
+import TabNavigator from './src/navigators/TabNavigator';
 
-interface AppProps {}
+const Stack = createNativeStackNavigator()
 
-const App = (props: AppProps) => {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>App</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{headerShown:false}}>
+        <Stack.Screen name='Tab' component={TabNavigator}/>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 

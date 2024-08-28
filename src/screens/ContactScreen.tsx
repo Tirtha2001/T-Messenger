@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
-interface AppProps {}
+interface ContactScreenProps {}
 
-const App = (props: AppProps) => {
+const ContactScreen = (props: ContactScreenProps) => {
   return (
     <View style={styles.container}>
-      <Text>App</Text>
+      <Text>ContactScreen</Text>
     </View>
   );
 };
 
-export default App;
+export default ContactScreen;
 
 const styles = StyleSheet.create({
   container: {}

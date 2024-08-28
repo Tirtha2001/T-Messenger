@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
-interface AppProps {}
+interface CallScreenProps {}
 
-const App = (props: AppProps) => {
+const CallScreen = (props: CallScreenProps) => {
   return (
     <View style={styles.container}>
-      <Text>App</Text>
+      <Text>CallScreen</Text>
     </View>
   );
 };
 
-export default App;
+export default CallScreen;
 
 const styles = StyleSheet.create({
   container: {}

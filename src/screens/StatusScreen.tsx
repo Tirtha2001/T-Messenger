@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
-interface AppProps {}
+interface StatusScreenProps {}
 
-const App = (props: AppProps) => {
+const StatusScreen = (props: StatusScreenProps) => {
   return (
     <View style={styles.container}>
-      <Text>App</Text>
+      <Text>StatusScreen</Text>
     </View>
   );
 };
 
-export default App;
+export default StatusScreen;
 
 const styles = StyleSheet.create({
   container: {}

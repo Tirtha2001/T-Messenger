@@ -1,12 +1,13 @@
 import * as React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import Header_bar from './Components/Header_bar'
 
 interface MessageScreenProps {}
 
 const MessageScreen = (props: MessageScreenProps) => {
   return (
     <View style={styles.container}>
-      <Text>MessageScreen</Text>
+      <Header_bar />
     </View>
   );
 };

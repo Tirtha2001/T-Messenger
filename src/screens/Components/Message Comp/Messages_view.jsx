@@ -3,8 +3,8 @@ import {Image, Pressable, ScrollView, Text, View} from 'react-native';
 
 const Messages_view = () => {
   return (
-  <ScrollView style={{marginTop: 20, paddingHorizontal: 10}}>
-      <Text style={{fontSize: 15, fontWeight: 800}}>Chats</Text>
+  <ScrollView style={{ height: '100%', marginTop: 10, paddingHorizontal: 10, paddingTop: 15, backgroundColor: 'white', borderTopRightRadius: 15, borderTopLeftRadius: 15 }}>
+      <Text style={{fontSize: 18, fontWeight: 800}}>Chats</Text>
 
       {/* Individual Message */}
       <View
@@ -35,7 +35,7 @@ const Messages_view = () => {
               height: 18,
               fontSize: 12,
               fontWeight: 600,
-              backgroundColor: '#13A32A',
+              backgroundColor: '#25DC42',
               color: 'white',
               borderRadius: 100,
               textAlign: 'center',

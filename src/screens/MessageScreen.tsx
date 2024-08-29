@@ -17,5 +17,7 @@ const MessageScreen = (props: MessageScreenProps) => {
 export default MessageScreen;
 
 const styles = StyleSheet.create({
-  container: {}
+  container: {
+    backgroundColor: '#25DC42'
+  }
 });

@@ -18,6 +18,6 @@ export default MessageScreen;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#25DC42'
+    // backgroundColor: '#25DC42'
   }
 });

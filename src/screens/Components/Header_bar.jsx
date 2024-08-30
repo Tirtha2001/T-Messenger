@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Image, Pressable, Text} from 'react-native';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const Header_bar = () => {
   return (
@@ -18,12 +19,12 @@ const Header_bar = () => {
         />
       </Pressable>
       <Text style={{fontSize: 18}}>T Messanger</Text>
-      <View>
+      <View style={{flexDirection: 'row', gap: 10 }}>
             <Pressable>
-                <Text>Search</Text>
+              <MaterialIcons name="search" size={22} color="#000" />
             </Pressable>
             <Pressable>
-                <Text>Notification</Text>
+              <MaterialIcons name="notifications-none" size={22} color="#000" />
             </Pressable>
       </View>
     </View>

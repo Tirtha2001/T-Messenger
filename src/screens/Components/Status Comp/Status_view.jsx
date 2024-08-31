@@ -6,7 +6,12 @@ const Status_view = () => {
   return (
     <ScrollView style={{ height: '100%', marginTop: 10, paddingHorizontal: 10, paddingTop: 15, backgroundColor: 'white', borderTopRightRadius: 15, borderTopLeftRadius: 15 }}>
         <Text style={{fontSize: 18, fontWeight: 800, marginBottom: 10}}>Status</Text>
-        <Individual_status />
+        
+        <View style={{flexDirection: 'row', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10}}>
+          <Individual_status />
+          <Individual_status />
+          <Individual_status />
+        </View>
     </ScrollView>
   )
 }

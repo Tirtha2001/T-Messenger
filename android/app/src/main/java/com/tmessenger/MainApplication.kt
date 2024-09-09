@@ -1,4 +1,4 @@
-package com.tmessenger
+package com.twigyy.tmessenger
 
 import android.app.Application
 import com.facebook.react.PackageList

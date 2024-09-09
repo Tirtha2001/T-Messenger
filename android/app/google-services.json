@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "878940571864",
+    "firebase_url": "https://twigyy-1adce-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "twigyy-1adce",
+    "storage_bucket": "twigyy-1adce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878940571864:android:5354793acf94af002d6fad",
+        "android_client_info": {
+          "package_name": "com.twigyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878940571864-uidl0m0kg176gnjrqqednc6hd4fir7ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsmuzlqHVcgeCFj2Z4qkGgdp6HGIG_KUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878940571864-uidl0m0kg176gnjrqqednc6hd4fir7ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878940571864:android:04786fa05fe189fe2d6fad",
+        "android_client_info": {
+          "package_name": "com.twigyy.tmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878940571864-uidl0m0kg176gnjrqqednc6hd4fir7ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsmuzlqHVcgeCFj2Z4qkGgdp6HGIG_KUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878940571864-uidl0m0kg176gnjrqqednc6hd4fir7ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

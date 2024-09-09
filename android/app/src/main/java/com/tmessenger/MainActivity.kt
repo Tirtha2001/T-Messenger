@@ -1,4 +1,4 @@
-package com.tmessenger
+package com.twigyy.tmessenger
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity
